@@ -1,0 +1,245 @@
+body {
+  font-family: "Bungee Hairline", cursive;
+  background-color: black;
+  width: 100%;
+  height: 900px;
+}
+.title {
+  font-size: 200px;
+  width: 100%;
+  /* animation: mymove 5s;
+   animation-timing-function: ease;
+    */
+}
+
+/* @keyframes mymove {
+   from {left: 0px;}
+   to {left: 300px;}
+ } */
+
+p {
+  font-size: larger;
+}
+
+#home {
+  background-color: transparent;
+  border: none;
+  animation-name: example2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#head {
+  font-size: 175px;
+}
+
+header {
+  text-align: center;
+  font-family: "Bungee Hairline", cursive;
+  color: lightskyblue;
+  background-image: url(../images/230613.jpg);
+  width: 100%;
+  background-size: contain;
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example2 {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
+
+#small-head {
+  text-align: center;
+  height: 20%;
+  font-family: "Bungee Hairline", cursive;
+  color: lightskyblue;
+  background-image: url(../images/230613.jpg);
+  background-size: contain;
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#subtitle {
+  font-size: 12px;
+}
+
+.search-bar {
+  left: 30%;
+  width: 40%;
+  float: left;
+  margin-top: 20px;
+}
+
+.search-bar-small {
+  width: 20%;
+  left: 40%;
+  font-size: 8px;
+}
+
+.search-btn {
+  clear: both;
+  position: relative;
+  left: 30%;
+  margin-left: 1%;
+  height: 43px;
+  background-color: black;
+  color: white;
+  border: black 1px solid;
+  margin-top: 20px;
+}
+
+.search-btn-small {
+  clear: both;
+  position: relative;
+  left: 60%;
+  bottom: 30px;
+  margin-left: 1px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: black 1px solid;
+  font-size: 12px;
+}
+
+.searchDiv {
+  height: 100px;
+}
+
+.search-Div-Small {
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+/* .genres {
+  text-align: center;
+}
+
+.btn-genre {
+  margin: 5px;
+}
+
+.btn-genre-small {
+  margin: 5px;
+  font-size: 8px;
+} */
+.searchDiv {
+  height: 50px;
+}
+.content {
+  /* border: black 2px solid; */
+  height: 80%;
+  margin: 1% 5% 0% 5%;
+  color: black;
+  background-color: white;
+  box-shadow: 0 6px 20px 0 #cdcdcd, 0 6px 20px 0 #cdcdcd, 0 6px 20px 0 #cdcdcd,
+    0 6px 20px 0 #cdcdcd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.artistName {
+  margin: 20px;
+  /* background-color: #cdcdcd; */
+  color: white;
+  font-size: 400%;
+  background-color: black;
+  border-radius: 5px;
+  /* font-family: "Oswald", sans-serif; */
+  /* font-family: "Anton", sans-serif; */
+  text-align: center;
+  font-weight: bolder;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: solid;
+}
+.band-image {
+  height: 80%;
+  width: 45%;
+  margin: 0px 30px 30px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  border: solid white;
+}
+
+/* .artist-fb {
+  color: white;
+  font-size: 100px;
+  width: 14px;
+  height: 24px;
+  background-color: blue;
+  position: static;
+} */
+
+/* .fb-icon {
+  width: 24px !important;
+  height: 24px !important;
+} */
+
+.upcomingEvents {
+  border: white 2px solid;
+  padding: 20px;
+  color: white;
+  margin: 20px;
+  text-align: center;
+  margin: 0px 0px 0px 40px;
+}
+
+.seeTour {
+  font-size: 250%;
+  position: relative;
+  left: 64%;
+  bottom: 539px;
+  font-weight: bold;
+}
+
+.fa-facebook:before {
+  position: relative;
+  bottom: 120px;
+  left: 50%;
+}
+
+#results {
+  position: relative;
+  left: 55%;
+  bottom: 39%;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+  width: 35%;
+  height: 30%;
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+  border: solid;
+}
+
+#results.p {
+  margin: 0px;
+}
+
+h2.events {
+  font-size: 50px;
+  font-weight: bolder;
+  width: 51%;
+  position: relative;
+  bottom: 83%;
+  left: 50%;
+}
+
+#audio-player {
+  width: 65%;
+  height: 45px;
+}
