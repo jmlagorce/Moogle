@@ -21,3 +21,6 @@
     ⁃ Video
     ⁃ User can select tour date which directs user to the site to buy tickets - this will open in another window
     ⁃ User can select video to watch - this will open in a modal
+
+## Link to Project
+    https://jmlagorce.github.io/Moogle/
